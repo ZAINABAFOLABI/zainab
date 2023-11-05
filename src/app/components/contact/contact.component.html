@@ -1,0 +1,69 @@
+<div class="bg-byzantime">
+  <div class="pl-60"> <h3 class="p-3 text-light">Contact me</h3> </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <ul class="list-unstyled">
+          <li class="pl-1 pt-3">
+            <a href="https://www.linkedin.com/in/omololazainabafolabi/">
+              <span class="icon pr-2 text-warning"><i class="fab fa-linkedin-in"></i></span>
+              <span class="item text-light">Omolola Zainab Afolabi</span>
+            </a>
+          </li>
+          <li class="pl-1 pt-3">
+
+              <span class="icon pr-2 text-warning"><i class="fas fa-search-location"></i></span>
+              <span class="item text-light">Bolton, United Kingdom</span>
+
+          </li>
+          <li class="pl-1 pt-3">
+
+              <span class="icon pr-2 text-warning"><i class="fas fa-envelope"></i></span>
+              <span class="item text-light">zainab.o.afolabi@gmail.com</span>
+
+          </li>
+          <li class="pl-1 pt-3">
+
+              <span class="icon pr-2 text-warning"><i class="fas fa-mobile-alt"></i></span>
+              <span class="item text-light">+447823843022</span>
+
+          </li>
+        </ul>
+      </div>
+
+        <div class="col">
+          <form #contactForm="ngForm" (ngSubmit)="contact(contactForm)">
+            <div class="form-group bg-brand">
+              <input class="form-control " name="name" #name="ngModel"  type="text"
+               placeholder="Your name" minlength="3" ngModel required>
+            </div>
+            <pre></pre>
+
+            <div class="form-group bg-brand">
+              <input class="form-control" name="email" #email="ngModel"  type="email"
+               placeholder="Your email" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,6})+$"
+                ngModel required>
+            </div>
+            <pre></pre>
+
+            <div class="form-group bg-brand">
+              <textarea rows="8" column="33" class="form-control" name="message" #message="ngModel"
+               placeholder="Type your message here ..." ngModel minlength="3" maxlength="240" required></textarea>
+            </div>
+
+            <pre></pre>
+
+            <div class="form-group ">
+              <button [disabled]="!(contactForm.valid || contactForm.pristine)"
+              class=" btn btn-brand btn-lge btn-warning" type="submit">Send</button>
+            </div>
+          </form>
+
+
+      </div>
+    </div>
+
+  </div>
+
+
+</div>

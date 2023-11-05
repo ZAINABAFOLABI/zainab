@@ -1,0 +1,44 @@
+a{
+  text-decoration: none;
+  /* color: azure; */
+}
+
+.list-unstyled{
+  list-style: none;
+text-decoration: none;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pr-2{
+  padding-right: 2rem;
+}
+
+li,h3{
+  line-height: 30px;
+}
+
+h3{
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bg-byzantime{
+  /* background-color: #702963; */
+  background-color: #301934;
+  height: 500px;
+}
+.pl-60{
+  padding-left: 100px;
+}
+
+
+.btn-brand{
+  width: 250px;
+  height: 50px;
+}
+
+.bg-brand{
+  background-color: #32174d;
+}
+
+
