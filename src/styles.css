@@ -2,3 +2,11 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.bg-brand{
+  background-color: 	#fff0db;
+}
+
+.text-rusian-violet{
+  color: #301934;
+}
