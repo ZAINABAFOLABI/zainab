@@ -1,0 +1,50 @@
+div{
+  height: 550px;
+}
+
+.bg-byzantine{
+  background-color: #301934;
+}
+
+.text-brand-1{
+  font-size: 28px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:#fff0db;
+}
+
+.text-brand-2{
+  color:#fff0db;
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-height{
+  height: 90px;
+}
+
+.font-brand{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.pl-10{
+  padding-left: 350px;
+}
+
+
+
+.pl-40{
+  padding-left: 50px;
+}
+
+.pr-8{
+ padding-right: 240px;
+}
+.pt-40{
+  padding-top: 40px;
+}
+
+.mr-10{
+  margin-right: 5rem;
+}

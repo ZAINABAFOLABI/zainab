@@ -15,6 +15,10 @@ a:hover{
   background-color: #FFC300;
 }
 
+.bg-brand{
+  background-color: 	#fff0db;
+}
+
 h3{
   font-size: 24px;
   font-family: Georgia, 'Times New Roman', Times, serif;
