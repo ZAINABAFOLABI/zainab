@@ -10,3 +10,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .text-rusian-violet{
   color: #301934;
 }
+
+.bg-byzantime{
+  background-color: #301934;
+}

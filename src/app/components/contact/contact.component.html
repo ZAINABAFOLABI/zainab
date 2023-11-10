@@ -1,5 +1,5 @@
 <div class="bg-byzantime">
-  <div class="pl-60"> <h3 class="p-3 text-light">Contact me</h3> </div>
+  <div class="pl-60"> <h3 class="p-4 text-light">Contact me</h3> </div>
   <div class="container">
     <div class="row">
       <div class="col">
@@ -47,8 +47,15 @@
             <pre></pre>
 
             <div class="form-group bg-brand">
+              <input class="form-control" name="phone" #phone="ngModel"
+               placeholder="Your phone number" minlength="11" maxlength="13"
+                ngModel required>
+            </div>
+            <pre></pre>
+
+            <div class="form-group bg-brand">
               <textarea rows="8" column="33" class="form-control" name="message" #message="ngModel"
-               placeholder="Type your message here ..." ngModel minlength="3" maxlength="240" required></textarea>
+               placeholder="Type your message here ..." ngModel minlength="3" maxlength="500" required></textarea>
             </div>
 
             <pre></pre>

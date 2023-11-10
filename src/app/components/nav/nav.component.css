@@ -9,11 +9,11 @@ div{
 .text-brand-1{
   font-size: 28px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color:#fff0db;
+  /* color:#fff0db; */
 }
 
 .text-brand-2{
-  color:#fff0db;
+  /* color:#fff0db; */
   font-size: 22px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -60,8 +60,8 @@ div{
 a:hover{
   padding: 15px;
   /* background-color: #FFC300; */
-  background: 	#eed9c4;
-  color:  #301934;
+  background: 	#301934;
+  color:  #eed9c4;
 };
 
 .text-brand-3{
