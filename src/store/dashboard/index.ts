@@ -1,8 +1,8 @@
 import { State } from '@ngxs/store';
 import { DictionaryState } from './states/dictionary/dictionary.state';
-import { UserState } from './states/user/user.state';
+import { ContactState } from './states/contact/contact.state';
 
-export const DashboardStates = [DictionaryState, UserState];
+export const DashboardStates = [DictionaryState, ContactState];
 
 @State({
   name: 'dashboardStateModule',

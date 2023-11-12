@@ -21,6 +21,7 @@ import {MatTabsModule} from '@angular/material/tabs';
 import { MatRadioModule} from '@angular/material/radio';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatNativeDateModule } from '@angular/material/core';
+import {MatDialogModule} from '@angular/material/dialog';
 
 const MaterialComponents:any =[
   MatButtonModule,
@@ -47,7 +48,8 @@ const MaterialComponents:any =[
   MatTooltipModule,
   MatFormFieldModule,
   MatInputModule,
-  MatNativeDateModule
+  MatNativeDateModule,
+  MatDialogModule
 
 
 

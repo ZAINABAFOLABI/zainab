@@ -32,7 +32,7 @@
       </div>
 
         <div class="col">
-          <form #contactForm="ngForm" (ngSubmit)="contact(contactForm)">
+          <form #contactForm="ngForm" (ngSubmit)="contactMe(contactForm)">
             <div class="form-group bg-brand">
               <input class="form-control " name="name" #name="ngModel"  type="text"
                placeholder="Your name" minlength="3" ngModel required>
