@@ -32,6 +32,7 @@ export interface ContactStateModel{
 export class ContactState {
   private static api:ContactService;
   private static utilityService:UtilityService;
+
   @Selector()
   public static getContact(state: ContactStateModel): ContactStateModel {
     return state;
@@ -60,10 +61,17 @@ export class ContactState {
     // )
   }
 
+  @Receiver()
+  static getMessages(ctx: StateContext<ContactStateModel>, {payload}: EmitterAction<any>) {
+    ctx.patchState({loading: false})
+    return this.api.getMessage(payload)
+    .pipe(
+      tap((res: any) => {
+        ctx.setState({data: res, loading: false});
+      }),
+      ResponseService.handleStateError(ctx)
+    )
+  }
 
 
-  // @Action(SetContact)
-  // public setContact(ctx: StateContext<ContactStateModel>, { payload }: SetContact) {
-  //   ctx.setState(payload);
-  // }
 }

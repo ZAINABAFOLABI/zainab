@@ -19,4 +19,10 @@ export class ContactService {
       map((res: any) => res.data)
     );
   }
+
+  getMessage(payload:any): Observable<any>{
+    return this.http.get(this.url).pipe(
+      map((res: any) => res.data)
+    )
+  }
 }
