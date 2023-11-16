@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class PortfolioComponent implements OnInit {
   alphaAppDB= '../assets/images/Alphaapp dashboard.png ';
   salesUI = '../assets/images/SalesUI.png ';
+  loginUIDesign = '../assets/images/Login UI design 1.png';
 
   constructor() { }
 
