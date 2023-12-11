@@ -35,7 +35,7 @@
           <form #contactForm="ngForm" (ngSubmit)="contactMe(contactForm)">
             <div class="form-group bg-brand">
               <input class="form-control " name="name" #name="ngModel"  type="text"
-               placeholder="Your name" minlength="3" ngModel required>
+               placeholder="Your name" minlength="3" pattern="^[a-zA-Z]+$" ngModel required>
             </div>
             <pre></pre>
 

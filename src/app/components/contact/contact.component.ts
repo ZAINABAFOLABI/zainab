@@ -15,6 +15,7 @@ export class ContactComponent implements OnInit {
   sendingMessage = false;
   @Emitter(ContactState.sendMessage)
   contactMessage!: Emittable<any>
+  // sendingMessage: boolean;
 
   constructor( public dialog: MatDialog,) { }
 
