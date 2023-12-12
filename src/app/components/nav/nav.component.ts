@@ -10,6 +10,10 @@ export class NavComponent implements OnInit {
   pythonLogo = '../assets/images/python logo.svg';
   javascriptLogo = '../assets/images/JavaScript-logo.png';
   dotNetLogo = '../assets/images/Microsoft.net.png';
+  angularmateriallogo = '../assets/images/angular material logo.png';
+  UoBlogo = '../assets/images/UoBrating.webp';
+  UoBcrest = '../assets/images/UoBcrest.png';
+  ngrxlogo = '../assets/images/ngrx logo.png';
 
   constructor() { }
 

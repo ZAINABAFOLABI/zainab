@@ -1,15 +1,47 @@
-div{
-  height: 550px;
+.main-bg{
+  height: 900px;
 }
 
 .bg-byzantine{
   background-color: #301934;
 }
 
+h3{
+  font-size: 24px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.4rem;
+}
+
 .text-brand-1{
   font-size: 28px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   /* color:#fff0db; */
+}
+
+.text-orange{
+  color: orangered;
+}
+
+.text-green{
+  color: lime;
+}
+
+.text-cobalt{
+  color: #1c49cf;
+}
+
+.text-blue{
+  color: #F4C430;
+}
+
+.text-brand{
+  color:#E30B5C;
+}
+
+
+
+.bg-coral{
+  background-color: #C70039  ;
 }
 
 .text-brand-2{
@@ -60,8 +92,8 @@ div{
 a:hover{
   padding: 15px;
   /* background-color: #FFC300; */
-  background: 	#301934;
-  color:  #FFC300 ;
+  background: 	#352139;
+  color:  #C70039 ;
 };
 
 .text-brand-3{
