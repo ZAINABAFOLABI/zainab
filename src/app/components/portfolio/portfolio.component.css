@@ -2,3 +2,16 @@
 div-portfolio{
   height: 1600px;
 }
+
+li{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 1.5rem;
+  padding:10px;
+}
+
+.font-medium{
+  font-size: 22px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}

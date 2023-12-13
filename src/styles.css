@@ -12,6 +12,12 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   color: #301934;
 }
 
+.font-medium{
+  font-size: 22px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
 .bg-byzantime{
   background-color: #301934;
 }
