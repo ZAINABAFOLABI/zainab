@@ -1,9 +1,13 @@
 .main-bg{
-  height: 900px;
+  height: 700px;
 }
 
 .bg-byzantine{
   background-color: #301934;
+}
+
+.pt-4 {
+  padding-top: 110px;
 }
 
 h3{
