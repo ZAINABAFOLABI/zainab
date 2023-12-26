@@ -1,8 +1,11 @@
 
-div-portfolio{
-  height: 1600px;
-}
-
+/* .div-portfolio{
+  height: 1500px;
+} */
+/*
+div-reveiew{
+  height:400px;
+} */
 li{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
@@ -13,5 +16,44 @@ li{
 .font-medium{
   font-size: 22px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
+.font-bold-medium{
+  font-weight: 700;
+}
+
+.font-bold{
+font-weight: 700;
+}
+
+.review-box{
+  width: 33.10%;
+  height: 400px;
+  float: left;
+  padding: 50px;
+  text-align: center;
+
+}
+
+.font-large{
+  font-size: 38px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.review-box i{
+  margin-bottom: 10px;
+}
+
+.h-review{
+  height: 340px;
+}
+
+.bg-lilac{
+  background-color: #F5EEF8  ;
+}
+
+.text-rusian-violet{
+  color: #301934;
+  font-weight: 400;
 }

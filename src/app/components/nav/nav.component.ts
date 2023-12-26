@@ -14,6 +14,9 @@ export class NavComponent implements OnInit {
   UoBlogo = '../assets/images/UoBrating.webp';
   UoBcrest = '../assets/images/UoBcrest.png';
   ngrxlogo = '../assets/images/ngrx logo.png';
+  javalogo = '../assets/images/javalogo.png';
+  trellologo = '../assets/images/Trellologo.jpeg';
+  flasklogo = '../assets/images/Flasklogo.png';
 
   constructor() { }
 

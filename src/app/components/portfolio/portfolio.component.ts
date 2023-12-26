@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./portfolio.component.css']
 })
 export class PortfolioComponent implements OnInit {
+  title='Omolola Zainab Afolabi portfolio';
   alphaAppDB= '../assets/images/Alphaapp dashboard.png ';
   usecasediagramUI = '../assets/images/Usecasediagram.png';
   salesUI = '../assets/images/SalesUI.png ';

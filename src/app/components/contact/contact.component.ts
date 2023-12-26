@@ -4,7 +4,7 @@ import {Emittable, Emitter} from "@ngxs-labs/emitter";
 import {Select, Store} from "@ngxs/store";
 import { ContactModel, ContactState, ContactStateModel } from 'src/store/dashboard/states/contact/contact.state';
 import { UtilityService } from 'src/app/utility/utility.service';
-import { MatDialog } from '@angular/material/dialog';
+// import { MatDialog } from '@angular/material/dialog';
 
 @Component({
   selector: 'zainab-contact',
@@ -17,7 +17,9 @@ export class ContactComponent implements OnInit {
   contactMessage!: Emittable<any>
   // sendingMessage: boolean;
 
-  constructor( public dialog: MatDialog,) { }
+  constructor(
+    // public dialog: MatDialog,
+    ) { }
 
   ngOnInit(): void {
   }

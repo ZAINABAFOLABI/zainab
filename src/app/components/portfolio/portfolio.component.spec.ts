@@ -20,4 +20,10 @@ describe('PortfolioComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it(`should have as title 'Omolola Zainab Afolabi portfolio'`, () => {
+    const fixture = TestBed.createComponent(PortfolioComponent);
+    const app = fixture.componentInstance;
+    expect(app.title).toEqual('Omolola Zainab Afolabi portfolio');
+    });
 });

@@ -1,5 +1,6 @@
 import { Action, Selector, State, StateContext } from '@ngxs/store';
 import { DictionaryReset, SetDictionaryData } from './dictionary.actions';
+import { Injectable } from '@angular/core';
 
 export interface DictionaryStateModel {
   content: any[];
@@ -19,6 +20,9 @@ export interface DictionaryStateModel {
     totalElements: 0
   }
 })
+
+
+@Injectable()
 export class DictionaryState {
   @Selector()
   public static getDictionaryState(state: DictionaryStateModel): DictionaryStateModel {

@@ -35,8 +35,8 @@ import { ContactMessageComponent } from './components/contact-message/contact-me
     FormsModule,
     BrowserAnimationsModule,
     HttpClientModule,
-
-
+    NgxsEmitPluginModule,
+    NgxsModule,
     NgxsStoreModule
 
   ],

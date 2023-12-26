@@ -18,6 +18,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 }
 
+.font-bold{
+  font-weight: 700;
+  }
+
 .bg-byzantime{
   background-color: #301934;
 }
