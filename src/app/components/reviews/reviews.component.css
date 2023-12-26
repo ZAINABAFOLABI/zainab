@@ -1,0 +1,41 @@
+.review-box i{
+  margin-bottom: 10px;
+}
+
+.h-review{
+  height: 340px;
+}
+
+.bg-lilac{
+  background-color: #F5EEF8  ;
+}
+
+.text-rusian-violet{
+  color: #301934;
+  font-weight: 400;
+}
+
+.font-bold-medium{
+  font-weight: 700;
+}
+
+.font-medium{
+  font-size: 22px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.review-box{
+  width: 33.10%;
+  height: 400px;
+  float: left;
+  padding: 50px;
+  text-align: center;
+
+}
+
+.font-large{
+  font-size: 38px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

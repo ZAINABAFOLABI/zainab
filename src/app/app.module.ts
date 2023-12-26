@@ -15,6 +15,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgxsStoreModule } from 'src/store/store.module';
 import { HttpClientModule } from '@angular/common/http';
 import { ContactMessageComponent } from './components/contact-message/contact-message.component';
+import { ReviewsComponent } from './components/reviews/reviews.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { ContactMessageComponent } from './components/contact-message/contact-me
     ContactComponent,
     PortfolioComponent,
     FooterComponent,
-    ContactMessageComponent
+    ContactMessageComponent,
+    ReviewsComponent
 
   ],
   imports: [
