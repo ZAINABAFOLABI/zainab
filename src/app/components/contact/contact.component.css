@@ -9,6 +9,16 @@ text-decoration: none;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.alert-danger{
+  background-color: #ff4040;
+}
+
+.alert{
+  color: white;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
 .pr-2{
   padding-right: 2rem;
 }
@@ -43,7 +53,7 @@ h3{
 
 
 .main-bg{
-  height: 550px;
+  height: 650px;
 }
 
 
