@@ -33,6 +33,7 @@ backlog1 = 'I curate smart backlog refinement during agile development using Tre
 sprint1 = 'I excellently champion sprint planning sessions.';
 sprint2 = 'I anchor daily stand up meetings to track team progress.';
 sprint3 = 'I supervise sprint demo days, accurately ensuring delivered product feature compliance with acceptance criteria and definition of done.';
+inputValidation = '../assets/video/compressed input validation.mp4';
 
   constructor() { }
 
