@@ -57,3 +57,13 @@ h3{
 }
 
 
+/* Smartphone Screen */
+@media (min-width:320px) and (max-width:500px){
+  .responsive{
+    width: 100%;
+  }
+  .main-bg{
+    height: 850px;
+  }
+}
+

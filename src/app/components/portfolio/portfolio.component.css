@@ -51,6 +51,22 @@ font-weight: 700;
   font-family: 'Righteous', cursive;
   font-size: large;
 }
+.text-lightt{
+  color: whitesmoke;
+}
+
+/* Smartphone Screen */
+@media (min-width:320px) and (max-width:520px){
+  .phone-responsive{
+    width: fit-content;
+    height: fit-content;
+    /* background-color: #F5EEF8; */
+    /* color: #301934; */
+  }
+  /* .main-bg{
+    height: 850px;
+  } */
+}
 
 .h-review{
   height: 340px;
