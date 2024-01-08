@@ -47,6 +47,11 @@ font-weight: 700;
   margin-bottom: 10px;
 }
 
+.subheader{
+  font-family: 'Righteous', cursive;
+  font-size: large;
+}
+
 .h-review{
   height: 340px;
 }
