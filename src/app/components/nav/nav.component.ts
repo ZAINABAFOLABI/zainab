@@ -18,6 +18,8 @@ export class NavComponent implements OnInit {
   CV = '../assets/documents/Omolola Zainab Afolabi CV.pdf';
   trellologo = '../assets/images/Trellologo.jpeg';
   flasklogo = '../assets/images/Flasklogo.png';
+karmalogo = '../assets/images/karmalogo.png';
+jasminelogo = '../assets/images/jasminelogo.png';
 
   constructor() { }
 

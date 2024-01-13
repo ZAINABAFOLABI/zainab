@@ -110,4 +110,14 @@ font-size: 45px;
 }
 
 
+/* Smartphone Screen */
+@media (min-width:320px) and (max-width:500px){
+  .responsive{
+    width: 100%;
+  }
+  .main-bg{
+    height: 1200px;
+  }
+}
+
 

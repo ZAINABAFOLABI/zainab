@@ -16,6 +16,8 @@ import { NgxsStoreModule } from 'src/store/store.module';
 import { HttpClientModule } from '@angular/common/http';
 import { ContactMessageComponent } from './components/contact-message/contact-message.component';
 import { ReviewsComponent } from './components/reviews/reviews.component';
+import { PortfolioDetailsComponent } from './components/portfolio-details/portfolio-details.component';
+import { ContactDetailsComponent } from './components/contact-details/contact-details.component';
 
 
 @NgModule({
@@ -27,7 +29,9 @@ import { ReviewsComponent } from './components/reviews/reviews.component';
     PortfolioComponent,
     FooterComponent,
     ContactMessageComponent,
-    ReviewsComponent
+    ReviewsComponent,
+    PortfolioDetailsComponent,
+    ContactDetailsComponent
 
   ],
   imports: [
