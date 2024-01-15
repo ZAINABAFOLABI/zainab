@@ -5,13 +5,18 @@
 } */
 
 .sub-bg{
-  height: 530px;
+  height: 960px;
   width: 100vw;
   /* background: linear-gradient(147.87deg, 	#301934 26.36%, #6836b9  125.59%); */
   background-color:  #F5EEF8;
   padding: 80px;
   /* margin-top: 110px; */
   /* border-radius: 30px; */
+}
+
+h3{
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .bg-byzantine{
@@ -22,14 +27,45 @@
   background-color: #F5EEF8  ;
 }
 
+.bg-pivo{
+  background-color: #0F52BA;
+  background-color: #ccf9ff;
+  background: linear-gradient(147.87deg, 	#4169e1 26.36%, 	#234BC3  100.59%);
+}
+
+.bg-alpha{
+  background-color: #325AD2;
+}
+
+.bg-kelle{
+  background: linear-gradient(147.87deg, 	#DE3163 26.36%, #770737  125.59%);
+}
+.bg-green{
+  background-color: green;
+}
+
 .pr-1{
   padding-right: 15px;
+}
+
+.mb-3{
+  margin-bottom: 150px;
 }
 .round-padding{
   /* padding:  5px ; */
    background: #3d59ab;
   border-radius: 60%;
   padding: 8px;
+}
+
+.font-verdana{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.text-height{
+  line-height: 1.8rem;
+  font-size: 18px;
 }
 
 .box{
