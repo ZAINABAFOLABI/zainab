@@ -32,7 +32,7 @@ backlog2 = 'I reprioritize user stories on the Trello board to address changing 
 backlog1 = 'I curate smart backlog refinement during agile development using Trello & Jira.';
 sprint1 = 'I excellently champion sprint planning sessions.';
 sprint2 = 'I anchor daily stand up meetings to track team progress.';
-sprint3 = 'I supervise sprint demo days, accurately ensuring delivered product feature compliance with acceptance criteria and definition of done.';
+sprint3 = 'I supervise sprint demo days, accurately ensuring delivered product features are in compliance with acceptance criteria and definition of done.';
 inputValidation = '../assets/video/compressed input validation.mp4';
 APIntegrationDevelopment =  '../assets/video/API dev and integration video.mp4';
 

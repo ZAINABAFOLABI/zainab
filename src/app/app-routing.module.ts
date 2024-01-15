@@ -10,7 +10,7 @@ import { ContactDetailsComponent } from './components/contact-details/contact-de
 
 const routes: Routes = [
   {path:'', component:HomeComponent},
-  {path:'portfolio', component:PortfolioComponent},
+  {path:'oza-expertise', component:PortfolioComponent},
   {path:'contact', component:ContactComponent},
   {path:'footer', component:FooterComponent},
   {path:'contact-message', component:ContactMessageComponent},

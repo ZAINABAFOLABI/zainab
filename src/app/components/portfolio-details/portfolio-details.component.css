@@ -28,20 +28,30 @@ h3{
 }
 
 .bg-pivo{
-  background-color: #0F52BA;
+  /* background-color: #0F52BA;
   background-color: #ccf9ff;
-  background: linear-gradient(147.87deg, 	#4169e1 26.36%, 	#234BC3  100.59%);
+  background: linear-gradient(147.87deg, 	#73c4e4 26.36%, 	#4169e1  125.59%); */
+/* background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%); */
+background-color: #301934;
+
+  /* background: #87CEEB; */
 }
 
 .bg-alpha{
-  background-color: #325AD2;
+  /* background-color: #325AD2; */
+  /* #770737 #DE3163 */
+  background-color: #234BC3;
+  background-color: #301934;
+
 }
 
 .bg-kelle{
-  background: linear-gradient(147.87deg, 	#DE3163 26.36%, #770737  125.59%);
+  /* background: linear-gradient(314.87deg, 	#770737 0.36%, #DE3163  75.59%); */
+  background-color: #301934;
 }
 .bg-green{
   background-color: green;
+  background-color: #301934;
 }
 
 .pr-1{
@@ -105,7 +115,12 @@ color: green;
 
 a:hover{
   padding: 25px;
-  background:	#301934;
+  /* background:	#301934; */
+}
+
+button{
+  color: #DE3163;
+  color: #FFBF00;
 }
 
 /* Smartphone Screen */
