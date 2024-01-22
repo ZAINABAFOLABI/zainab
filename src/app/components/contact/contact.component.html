@@ -36,7 +36,7 @@
           <form #contactForm="ngForm" (ngSubmit)="contactMe(contactForm)">
             <div class="form-group bg-brand">
               <input class="form-control " name="name" #name="ngModel"  type="text"
-               placeholder="Your name" minlength="3" pattern="^[a-zA-Z]+$" ngModel required>
+               placeholder="Your first name" minlength="3"  ngModel required>
                <div [hidden]="(name.valid || name.pristine)" class="alert alert-danger">
                 Name is required & it has to be 3 characters minimum!
               </div>

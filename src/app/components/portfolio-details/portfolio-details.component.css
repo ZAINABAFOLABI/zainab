@@ -118,6 +118,10 @@ a:hover{
   /* background:	#301934; */
 }
 
+.div-project{
+  height: 370px;
+}
+
 button{
   color: #DE3163;
   color: #FFBF00;
@@ -126,40 +130,67 @@ button{
 /* Smartphone Screen */
 @media (min-width:320px) and (max-width:500px){
   .sub-bg{
-    height: 400px;
+    height: 2200px;
     width: 100vw;
+    padding: 0;
 
-    padding: 40px;
+    /* padding: 40px;
     margin-top: 10px;
     border-radius: 0px;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 10px; */
+  }
+
+  .div-responsive{
+    margin-top:70px ;
+  }
+
+  h3{
+    height: 40px;
+  }
+
+  p{
+    height: 350px;
   }
 
   .box{
     width: 98.0%;
+    height: 390px;
     float: none;
-    padding: 20px;
+    margin: 0;
+    padding: 0;
+    /* padding: 20px; */
   }
   .box i{
     margin-bottom: 10px;
+  }
+
+  .h3-height{
+    height: 40px;
+  }
+  .bg-alpha{
+    height: 300px;
+
   }
 }
 
 /* Tablet screen */
-@media
+/* @media
 (min-width: 501px) and (max-width: 768px){
-  .sub-bg{
-    height: 800px;
-    width: 100vw;
+  .sub-bg{ */
+    /* height: 2200px; */
+    /* width: 100vw;
+    padding: 0; */
 
-    padding: 40px;
-    margin-top: 10px;
+    /* padding: 40px; */
+    /* margin-top: 10px;
     border-radius: 0px;
 
-  }
+  } */
 
-  .box{
+
+
+  /* .box{
     width: 98.0%;
     float: none;
     padding: 20px;
@@ -167,11 +198,11 @@ button{
   .box i{
     margin-bottom: 10px;
   }
-}
+} */
 
 
  /*Normal*/
- @media(min-width: 769px) and (max-width: 1200px){
+ /* @media(min-width: 769px) and (max-width: 1200px){
   .sub-bg{
     height: 800px;
     width: 100vw;
@@ -180,9 +211,9 @@ button{
     margin-top: 10px;
     border-radius: 0px;
 
-  }
+  } */
 
-  .box{
+  /* .box{
     width: 98.0%;
     float: none;
     padding: 20px;
@@ -190,4 +221,4 @@ button{
   .box i{
     margin-bottom: 10px;
   }
- }
+ } */

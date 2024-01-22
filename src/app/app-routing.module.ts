@@ -14,7 +14,7 @@ const routes: Routes = [
   {path:'contact', component:ContactComponent},
   {path:'footer', component:FooterComponent},
   {path:'contact-message', component:ContactMessageComponent},
-  {path:'portfolio-project', component:PortfolioDetailsComponent},
+  {path:'oza-portfolio', component:PortfolioDetailsComponent},
   {path:'contact-oza', component:ContactDetailsComponent}
 
 ];

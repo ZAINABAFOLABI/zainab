@@ -5,6 +5,7 @@
 export const environment = {
   production: false,
   base_url: 'http://127.0.0.1:5000/zainab/v1/contact/',
+  FIREBASE_TOKEN :'1//09z4E4IJm3DwkCgYIARAAGAkSNwF-L9Ir7eKFgRweJd-XT8tD3HhH33Jhl32-h_YxXf1VaCvdUTrS5BNDOU4mmTdeo2in9nVLA6g'
 };
 
 /*
