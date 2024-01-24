@@ -10,6 +10,10 @@
   padding-top: 110px;
 }
 
+.pt-50{
+  padding-top: 100px;
+}
+
 .font-bold{
   font-weight: 600;
 }
@@ -109,6 +113,10 @@ color: #eed9c4;
 font-size: 45px;
 }
 
+.mb-4{
+  margin-bottom: 100px;
+}
+
 
 /* Smartphone Screen */
 @media (min-width:320px) and (max-width:500px){
@@ -117,6 +125,39 @@ font-size: 45px;
   }
   .main-bg{
     height: 1200px;
+  }
+
+  .bg-byzantine{
+    background-color: #301934;
+    height: 1200px;
+  }
+
+  .text-brand-1{
+    font-size: 20px;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* color:#fff0db; */
+  }
+
+  .pl-40{
+    padding-left: 40px;
+  }
+
+  .pt-50{
+    padding-top: 25px;
+  }
+
+  .pr-8{
+    padding-right: 20px;
+   }
+
+   .img-property{
+    width: 100px;
+    height: 100px;
+   }
+
+   .mb-4{
+    margin-bottom: 40px;
   }
 }
 
