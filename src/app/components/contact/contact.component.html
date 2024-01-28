@@ -32,12 +32,12 @@
         </ul>
       </div>
 
-        <div class="col">
-          <form #contactForm="ngForm" (ngSubmit)="contactMe(contactForm)">
+        <div class="col" >
+          <form action="javascript:void(0)" #contactForm="ngForm" (ngSubmit)="send(contactForm)">
             <div class="form-group bg-brand">
-              <input class="form-control " name="name" #name="ngModel"  type="text"
-               placeholder="Your first name" minlength="3"  ngModel required>
-               <div [hidden]="(name.valid || name.pristine)" class="alert alert-danger">
+              <input class="form-control " name="sender" #sender="ngModel"  type="text"
+               placeholder="Your full name" minlength="3"  [(ngModel)]="model.sender" required>
+               <div [hidden]="(sender.valid || sender.pristine)" class="alert alert-danger">
                 Name is required & it has to be 3 characters minimum!
               </div>
             </div>
@@ -47,7 +47,7 @@
             <div class="form-group bg-brand">
               <input class="form-control" name="email" #email="ngModel"  type="email"
                placeholder="Your email" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,6})+$"
-                ngModel required>
+               [(ngModel)]="model.email" required>
                 <div [hidden]="(email.valid || email.pristine)" class="alert alert-danger">Valid email address is required</div>
             </div>
             <pre></pre>
@@ -55,7 +55,7 @@
             <div class="form-group bg-brand">
               <input class="form-control" type="tel" name="phone" #phone="ngModel"
                placeholder="Your phone number" minlength="11" maxlength="14"
-                ngModel required>
+               [(ngModel)]="model.phone" required>
                 <div [hidden]="(phone.valid || phone.pristine)" class="alert alert-danger">Valid phone number is required</div>
 
             </div>
@@ -63,15 +63,19 @@
 
             <div class="form-group bg-brand">
               <textarea rows="8" column="33" class="form-control" name="message" #message="ngModel"
-               placeholder="Type your message here ..." ngModel minlength="3" maxlength="500" required></textarea>
+               placeholder="Type your message here ..."  [(ngModel)]="model.message" minlength="3" maxlength="500" required></textarea>
                <div [hidden]="(message.valid || message.pristine)" class="alert alert-danger">Message with at least 3 characters is required</div>
 
             </div>
 
             <pre></pre>
+<div class="text-light">
+  <!-- {{contactForm.value | json}} -->
+</div>
+
 
             <div class="form-group ">
-              <button [disabled]="!(contactForm.valid && contactForm.dirty) "
+              <button [disabled]="!(contactForm.valid && contactForm.dirty) && (contactForm.untouched)"
               class=" btn btn-brand btn-lge btn-warning" type="submit">Send</button>
             </div>
           </form>

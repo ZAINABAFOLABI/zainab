@@ -4,7 +4,7 @@ import { MaterialModule } from './material/material.module';
 import { NgxsModule } from '@ngxs/store';
 import { NgxsEmitPluginModule } from '@ngxs-labs/emitter';
 import { AppRoutingModule } from './app-routing.module';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { NavComponent } from './components/nav/nav.component';
 import { HomeComponent } from './components/home/home.component';
@@ -39,6 +39,7 @@ import { ContactDetailsComponent } from './components/contact-details/contact-de
     AppRoutingModule,
     MaterialModule,
     FormsModule,
+    ReactiveFormsModule,
     BrowserAnimationsModule,
     HttpClientModule,
     NgxsEmitPluginModule,
