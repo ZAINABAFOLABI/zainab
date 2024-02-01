@@ -39,7 +39,7 @@ import { ContactDetailsComponent } from './components/contact-details/contact-de
     AppRoutingModule,
     MaterialModule,
     FormsModule,
-    ReactiveFormsModule,
+   ReactiveFormsModule,
     BrowserAnimationsModule,
     HttpClientModule,
     NgxsEmitPluginModule,

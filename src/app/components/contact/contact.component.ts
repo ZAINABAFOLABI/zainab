@@ -64,6 +64,8 @@ export class ContactComponent implements OnInit {
     message: data.value.message,
     });
     alert('Message has been sent.');
+    // data.value.reset();
+    // this.newContact();
 
 
 
